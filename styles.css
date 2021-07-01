@@ -62,11 +62,11 @@ main {
   width: 15%;
 }
 
-.navbar {
+/* .navbar {
   width: 70%;
   text-align: center;
   color: #025157;
-}
+} */
 
 .actions {
   width: 15%;
@@ -328,4 +328,72 @@ main {
 .features .feature-card .feature-image img {
   margin-top: 0;
   height: 100%;
+}
+
+.steps {
+  align-content: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px 10px;
+}
+
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+/*   .navbar, .actions {
+    display: none; */
+  }
+  h1 {
+    font-size: 30px;
+  }
+  main {
+    margin-top: 10px;
+  }
+  .banner > img{
+    width: 100%;
+  }
+
+  form > input {
+    width: 65%;
+    flex-direction: column;
+  }
+  .advs {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .contenedor-vid > video {
+    width: 100%;
+  }
+
+  .advs  {
+    margin-top: 10px;
+  }
+
+  .advs > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .feature-image {
+    display: none;
+  }
+}
+/** dispositivos pequeños en vista landscape (horizontal) */
+@media (min-width: 576px) and (max-width: 767px) {
+}
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+
 }
