@@ -341,8 +341,8 @@ main {
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
 /*   .navbar, .actions {
-    display: none; */
-  }
+  display: none; 
+} */
   h1 {
     font-size: 30px;
   }
