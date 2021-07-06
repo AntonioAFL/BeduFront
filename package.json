@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "sass": "^1.35.1"
+  },
+  "name": "santanderfront",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioAFL/BeduFront.git"
+  },
+  "author": "Antonio Aguirre Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntonioAFL/BeduFront/issues"
+  },
+  "homepage": "https://github.com/AntonioAFL/BeduFront#readme",
+  "description": ""
+}
